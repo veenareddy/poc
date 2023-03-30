@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Cucumber",
+        "type": "ruby",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "program": "${workspaceRoot}/features/**/*_steps.rb",
+        "args": ["-r", "${workspaceRoot}/features/support/env.rb"],
+        "env": {
+          "BROWSER": "chrome"
+        },
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }
+  
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cucumber",
+            "type": "ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/features/**/*_steps.rb",
+            "args": ["-r", "${workspaceRoot}/features/support/env.rb"],
+            "env": {
+            "BROWSER": "chrome"
+            },
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
+  
